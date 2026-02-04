@@ -27,6 +27,10 @@ Import `jsonAutocomplete` and pass incomplete JSON strings to get them completed
 ```javascript
 const jsonAutocomplete = require("json-autocomplete");
 
+// OR:
+
+import jsonAutocomplete from "json-autocomplete";
+
 // Completing LLM Output
 const incompleteLLMOutput = '{"items":[{"name":"Appl';
 console.log(jsonAutocomplete(incompleteLLMOutput)); // Outputs: {"items":[{"name":"Appl"}]}
